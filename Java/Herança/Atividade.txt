@@ -1,0 +1,10 @@
+O sistema proposto simula uma calculadora. A calculadora pode ser de dois tipos: simples ou "científica" (ou quase isto). Todas as calculadoras armazenam o último cálculo efetuado e podem retorná-lo, sempre que o usuário solicitar para vê-lo. Ainda, é possível guardar valores numa memória para utilizá-la em uma operação. Isto acontece quando o usuário deseja armazenar o resultado atual na memória. 
+
+As operações básicas de uma calculadora simples são: somar, subtrair, multiplicar e dividir. Todas estas operações podem ser realizadas com dois operandos ou com um operando e o conteúdo atual da memória; neste caso, o valor da memória é sempre o primeiro operando. O usuário pode escolher o modo de operação a qualquer momento. Se ele não colocar nada na memória, a memória fica com o valor inicial, zero.
+
+As operações possíveis para uma calculadora "científica" são, além das operações básicas para uma calculadora simples: potenciação e raiz quadrada. A potenciação pode ser calculada tanto passando dois parâmetros (base e expoente), quanto passando apenas o expoente e aproveitando o valor da memória para o parâmetro base. Já a raiz quadrada, pode ser executada tanto passando um parâmetro do valor que será processado ou sem parâmetros, considerando assim, o valor armazenado na memória.
+
+Comandos e recursos Java:
+
+Math.pow(base, expoente);
+Math.sqrt(valor);

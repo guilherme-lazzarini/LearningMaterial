@@ -1,0 +1,25 @@
+1. Crie uma classe chamada figura, com os seguintes atributos privados:
+
+lado 1 
+lado 2
+lado 3
+raio
+tipo
+2. Crie os métodos getter e settter para cada um dos atributos
+
+3. Crie 3 construtores, conforme os parâmetros abaixo:
+
+lado1 e lado 2
+lado 1, lado 2 e lado 3
+raio
+Cada construtor deve atribuir um valor ao tipo, da seguinte forma:
+
+se lado 1 = lado 2 então tipo = quadrado
+se lado 1 diferente lado 2 então tipo = retângulo
+se lado 1 = lado 2 = lado 3 então tipo = "Triângulo equilátero"
+se dois lados iguais e um diferente então tipo = "Triângulo isósceles"
+se três lados diferentes então tipo = "Triângulo escaleno"
+Se raio então tipo = "Círculo"
+Os parâmetros não utilizados devem ter valor 0.
+
+4. Construir um método mostraStatus() que imprime os parâmetros diferentes de zero.

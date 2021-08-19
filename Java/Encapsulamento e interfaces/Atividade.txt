@@ -1,0 +1,27 @@
+1) Implemente um time de futebol onde cada jogador pode apresentar uma posição tática. Seu código deve conter:
+
+Uma classe Time, que deve ter 11 jogadores e métodos que permitam a substituição e consulta de jogadores atuais;
+Uma classe Jogador, que apresenta uma posição tática, um número e um nome. Crie um construtor para inicializar esses atributos e métodos para consultar os seus estados
+A classe principal do programa deve conter apenas o método principal. A partir desse método deverá ser criada a instância de time, as instâncias de jogadores e chamadas aos métodos de atribuição e consulta implementados.
+
+Só devem ser permitidas as seguintes posições táticas: goleiro, zagueiro, lateral, meia e atacante.
+
+
+
+2) Uma moeda apresenta um valor e um tipo monetário. São exemplos de tipos monetários: Real, Dólar, Euro. Cada tipo monetário apresenta uma cotação em relação ao Real, isto é: 1 real vale 1 real, 1 dólar vale 5 reais etc.
+
+Usando a classe Scanner, escreva um programa que peça para o usuário informar um valor expresso em um dos tipos monetários disponíveis no sistema e converta para o outro valor dos tipos monetários disponíveis. Os tipos de origem e destino também devem ser escolhidos pelo usuário. O método principal deverá apresentar o resultado da conversão para o usuário.
+
+O nome da classe principal deverá ser ConversorMonetario. O valor informado pelo usuário e o tipo monetário deverão ser utilizados na criação de uma instância da classe Valor. Um tipo monetário é representado pela classe Moeda, que possui como atributo seu nome e valor de conversão para o real.
+
+A classe Valor deverá ter os dois atributos citados, um construtor de inicialização, métodos de consulta e um método que recebe como argumento uma instância de Moeda e retorna uma instância de Valor, que representa o objeto Valor corrente convertido para a moeda indicada
+
+
+
+3) Implemente uma classe que represente polinômios com uma variável. Esta classe deve conter:
+
+Diferentes construtores
+Métodos de acesso
+Operações de adição e multiplicação
+Um método que faça a avaliação do polinômio, dado um número real x.
+Escreva, também, uma classe principal que teste os comportamentos da classe que representa o polinômio.

@@ -1,0 +1,11 @@
+Verifique as classes a seguir:
+Banco
+a) Escreva o UML, definindo a visibilidade dos atributos e métodos.
+b) Implemente as classes em Java, usando o conceitos de visibilidade.
+c) Implemente os métodos set e get para os atributos privados.
+
+2 - Verifique a classe a seguir:
+Bicicleta
+a) Escreva o UML, definindo a visibilidade dos atributos e métodos.
+b) Implemente a classe em Java, usando o conceitos de visibilidade.
+c) Implemente os métodos set e get para os atributos privados.

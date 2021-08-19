@@ -1,0 +1,17 @@
+1 - Identifique as classes, atributos e métodos necessários para modelar e implementar:
+
+Uma conta corrente que possui um número, um saldo, um status que informa se ela é especial ou não, um limite e um conjunto de movimentações.
+Uma movimentação que possui uma descrição, um valor e uma informação se ela é uma movimentação de crédito ou débito.
+Um banco que armazene um conjunto de contas e forneça métodos que permitam que sejam feitos criações de conta, exclusão de contas, saques (uma conta corrente só pode fazer saque desde que o saldo remanescente não seja negativo), depósitos, emissão de saldo e extrato.
+
+
+2 - Implemente uma classe Bicicleta para representar uma bicicleta. Toda bicicleta tem uma velocidade (atributo velocidade) e uma marcha (atributo marcha). Além disto, a bicicleta pode: acelerar (método acelerar), frear (método frear) e apresentar o seu estado atual (método imprimirEstados). Em sua construção a classe deve iniciar na marcha 0 (zero) e com velocidade 0 (zero).
+
+
+
+3 - Altere a classe do exercício anterior para que ela apresente um novo atributo que representa a velocidade máxima desempenhada pela bicicleta. De forma específica:
+
+Inclua o atributo velocidadeMaxima, que representa o valor máximo que o atributo velocidade pode apresentar.
+O valor de velocidadeMaxima deve ser atribuído no momento em que o objeto é criado utilizando um construtor de inicialização. A classe Bicicleta não deverá mais ter construtor padrão.
+O método imprimirEstados, quando invocado, deve apresentar (na saída padrão) o valor da velocidadeMaxima que foi atribuída ao objeto, além dos valores dos outros atributos.
+Ao incrementar a velocidade, o objeto deve impedir que a velocidade da bicicleta supere a velocidadeMaxima.
